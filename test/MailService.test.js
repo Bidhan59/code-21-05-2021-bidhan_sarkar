@@ -12,7 +12,7 @@ const configModel = require(`${root}/models/notificationConfig`);
 
 describe.only("AdHoc Email Sending api unit test suite", () => {
   it(
-    "expect #applyPrevilageLeave to send json object containing message created successful call",
+    "expect #SendMail API to send email based on the payload provided",
     sinonTest(async function () {
       let emailPayload = {
         EmailTo: "sarkarbidhan59@gmail.com",
