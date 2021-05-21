@@ -1,5 +1,5 @@
 {
-  "name": "stack_finance_assignment",
+  "name": "process_data",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,10 +14,6 @@
     "chai": "^4.3.4",
     "cron": "^1.8.2",
     "express": "^4.17.1",
-    "fast-two-sms": "^3.0.0",
-    "lodash": "^4.17.21",
-    "mongodb": "^3.6.6",
-    "nodemailer": "^6.6.0",
     "sinon": "^10.0.0",
     "sinon-test": "^3.1.0"
   },

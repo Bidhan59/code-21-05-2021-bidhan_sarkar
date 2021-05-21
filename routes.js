@@ -1,6 +1,6 @@
 const routes = require("express").Router();
 const root = require("app-root-path");
-const test = require(`${root}/controllers/MailService.js`);
+const test = require(`${root}/controllers/ProcessData.js`);
 
-routes.post("/email/sent", test.sendEmail);
+routes.post("/process/data", test.processData);
 module.exports = routes;
