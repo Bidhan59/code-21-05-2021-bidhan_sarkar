@@ -1,4 +1,13 @@
+const _ = require("lodash");
+
 async function processData(req, res) {
+  if (_.isNil(req.body) || _.isNil(req.body.data)) {
+    return res.status(400).json({
+      status: "Failure",
+      statusCode: 400,
+      message: "NO PAYLOAD PROVIDED",
+    });
+  }
   const data = req.body.data;
   let finalData = [];
   let OverwieghtCount = 0;
